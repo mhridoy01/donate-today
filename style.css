@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* header section  */
+#header-container{
+    background-image: url("images/don1.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+}
+.header-details{
+    text-align: center;
+    padding: 150px;
+    color: rgb(255, 255, 255);
+}
+.header-details h1{
+    font-size: 75px; 
+    font-family: 'Roboto', sans-serif;
+ } 
+.header-details p{
+     margin-top: 20px;
+     margin-bottom: 30px;
+     margin: 20px 15% 30px;
+    font-size: 20px; 
+} 
+.donate-button{
+    border: none;
+    background-color:  rgb(232, 62, 62);
+    border-radius: 5px;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    cursor: pointer;
+    color:white
+}
+/* main section  */
+/* donate section  */
+#donate-section{
+    margin: 120px 100px;
+    text-align: center;
+
+}
+#donate-section h1{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+#donate-section p{
+    padding: 20px 20%;
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(5, 5, 5,0.6);
+}
+.money-select{
+    margin: 20px;
+}
+.money-select button{
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    font-size: 26px;
+    color: rgb(48, 50, 53);
+    font-weight: 500;
+    margin-right: 40px;
+}
+.money-select .button-200{
+    background-color: rgb(243, 187, 187);
+    width: 100px;
+    height: 100px;
+    border: 1px solid red;
+    border-radius: 10px;
+}
+.donete-input-field{
+    width: 600px;
+    text-align: center;
+    padding: 5px;
+    border-style:  none none solid none;
+    margin: 10px 0 35px;
+}
+/* .donate-plan-section  */
+.donate-plan-section{
+    margin: 120px 100px;
+    text-align: center;
+}
+.donate-plan-section .about-donate{
+    margin: 20px 30% 40px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(5, 5, 5,0.6);
+}
+.carts{
+    display: flex;
+    justify-content: center;
+}
+.cart{
+    width: 250px;
+    height: 250px;
+    margin-right: 25px;
+    text-align: left;
+    padding: 10px;
+    border-radius: 10px;
+}
+.cart1{
+    background-color: rgb(249, 224, 191);
+    text-align: justify;
+}
+.cart2{
+    background-color: rgba(232, 137, 14, 0.6);
+    text-align: justify;
+}
+.cart3{
+    background-color: rgba(157, 226, 247,0.6);
+    text-align: justify;
+}
+.fa-burger, .fa-person-shelter, .fa-graduation-cap{
+    font-size: 70px;
+}
+.cart h2{
+    margin: 15px 0;
+}
+/* emergency-section */
+.emergenc-heading{
+    text-align: center;
+}
+.emergency-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px 80px;
+    text-align: justify;
+}
+.emergency-section img{
+    width: 100%;
+}
+.img-div{
+    width: 250%;
+}
+.emergency-detail{
+    margin: 30px;
+}
+.emergency-detail p{
+    margin: 25px 0;
+}
+/* update  */
+.update-info{
+    text-align: center;
+}
+.update-info h1{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+}
+.update-info p{
+    font-size: 18px;
+    padding: 0 30%;
+}
+.input-field{
+    text-align: center;
+    background-color: rgb(249, 166, 166);
+    width: 60%;
+    padding: 40px 0;
+    margin: 40px auto 75px;
+    border-radius: 5px;
+}
+.input-field .input{
+    padding: 14px;
+    margin-right: 1px;
+    border-radius: 5px;
+    border: none;
+}
+/* footer  */
+.footer-container{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 50px;
+}
+.footer-container h2{
+    margin-bottom: 15px;
+}
